@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restoran - Delicious Dining</title>
+    <title>CrimsonGrill</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         * {
@@ -507,11 +507,10 @@
                 
                 <ul class="nav-links">
                     <li><a href="#" class="active">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="{{ route('about') }}">ABOUT</a></li>
                     <li><a href="#">SERVICE</a></li>
-                    <li><a href="#">MENU</a></li>
-                    <li><a href="#">PAGES</a></li>
-                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="{{ route('menu') }}">MENU</a></li>
+                    <li><a href="{{route('contactus')}}">CONTACT</a></li>
                 </ul>
                 
                 <button class="book-btn" id="openBooking">BOOK A TABLE</button>

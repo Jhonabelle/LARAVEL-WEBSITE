@@ -1,4 +1,4 @@
-import './bootstrap';
+//import './bootstrap';
 import { createApp } from 'vue';
 import { createRouter, createWebHistory } from 'vue-router';
 
@@ -6,10 +6,9 @@ import { createRouter, createWebHistory } from 'vue-router';
 import App from './Components/App.vue';
 import Navbar from './Components/Navbar.vue';
 import Footer from './Components/Footer.vue';
-import HomePage from './Pages/HomePage.vue';
-import ProductsPage from './Pages/ProductsPage.vue';
-import AboutPage from './Pages/AboutPage.vue';
-import ContactPage from './Pages/ContactPage.vue';
+import HomePage from './pages/HomePage.vue';
+import AboutPage from './pages/AboutPage.vue';
+import ContactPage from './pages/ContactPage.vue';
 
 // Router configuration
 const routes = [

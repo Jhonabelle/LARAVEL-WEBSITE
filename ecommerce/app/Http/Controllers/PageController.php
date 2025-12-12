@@ -25,12 +25,16 @@ class PageController extends Controller
     
     public function about()
     {
-        return view('app');
+        return view('about');
+    }
+     public function menu()
+    {
+        return view('menu');
     }
     
-    public function contact()
+    public function contactus()
     {
-        return view('app');
+        return view('contactus');
     }
     
     public function fallback()
